@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=45", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trace-ml"
+description = "Type Resolution And Call-graph Extractor for ML Research"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "Salil Patel", email = "your.email@example.com"},
+]
+dependencies = [
+    "typer",
+    "rich",
+    "networkx",
+    "plotly",
+    "jinja2",
+    "joblib",
+]
+dynamic = ["version"]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "black",
+    "isort",
+    "mypy",
+]
+
+[project.scripts]
+trace = "trace.cli:app"

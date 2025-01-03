@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+*.db
+*.sqlite3
+*.egg-info/
+*.egg
+*.log
+*.html
+trace_report.html
+data_flow.html
+.trace_cache/
