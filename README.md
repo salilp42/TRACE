@@ -1,6 +1,6 @@
 # TRACE: Type Resolution And Call-graph Extractor for ML Research
 
-TRACE is a lightweight yet powerful tool that automatically detects data leakage in machine learning research. Born from personal experience with the frustrating and subtle ways data can leak between training and testing sets, TRACE does automatically what I found myself coding manually for each project.
+TRACE is a lightweight tool that automatically detects data leakage in machine learning research. Born from personal experience with the frustrating and subtle ways data can leak between training and testing sets, TRACE does automatically what I found myself coding manually for each project.
 
 ## Why TRACE?
 
